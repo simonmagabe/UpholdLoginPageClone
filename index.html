@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uphold Login Page Clone</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-left">
+                <li class="logo">
+                    <a href="#">
+                        <img src="/assets/images/uphold-logo.png" alt="uphold-logo">
+                        <h2>Uphold</h2>
+                    </a>
+                </li>
+                <li><a href="#">Transparency</a></li>
+                <li><a href="#">Apps Center</a></li>
+                <li><a href="#">Open API</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+
+            <ul class="nav-right">
+                <li><a href="#">Sign Up</a></li>
+                <li>
+                    <a href="#">
+                        <span>en</span>
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="alert-bar">
+        <span>
+            <i>i</i>
+            <p>Your session has expired.</p>
+        </span>
+    </div>
+
+    <div class="content">
+        <h2>Sign in to Uphold</h2>
+        <form action="" id="sign-in">
+            <label for="username">Username or email</label>
+            <input type="email" name="username" placeholder="Username or email" required>
+            <p hidden>Username or email is required</p>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password" required>
+            <p hidden>Password is required</p>
+
+            <div class="remember">
+                <label for="remember-me">Remember me</label>
+                <div id="check-me">
+                    <input type="checkbox" name="remember-me" >
+                </div>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Sign In">
+            </div>
+        </form>
+        <div class="recover">
+            <p>Don't have an account yet? <a href="#">Create an account</a></p>
+            <p>Forgot your password? <a href="#">Recover it</a></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="main">
+            <ul class="main-left">
+                <li><a href="#">Transparency</a></li>
+                <li><a href="#"><i class="fas fa-circle fa-xs"></i> Terms & conditions</a></li>
+                <li><a href="#"><i class="fas fa-circle fa-xs"></i> Privacy</a></li>
+            </ul>
+            <div class="copyright">
+                <p>&copy; Uphold, Inc. 2020</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/scripts/script.js"></script>
+</body>
+</html>
